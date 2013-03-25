@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @album.title %>
+</p>
+
+<p>
+  <b>Releaseyear:</b>
+  <%= @album.releaseYear %>
+</p>
+
+<p>
+  <b>Numofcopies:</b>
+  <%= @album.numOfCopies %>
+</p>
+
+<p>
+  <b>Integer:</b>
+  <%= @album.integer %>
+</p>
+
+<p>
+  <b>Artist:</b>
+  <%= @album.artist_id %>
+</p>
+
+<p>
+  <b>Integer:</b>
+  <%= @album.integer %>
+</p>
+
+
+<%= link_to 'Edit', edit_album_path(@album) %> |
+<%= link_to 'Back', albums_path %>
